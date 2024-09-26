@@ -933,26 +933,6 @@ section,
   }
 }
 
-.carousel-caption h2 {
-  opacity: 0;
-  animation: fadeIn 1s forwards;
-  animation-delay: 0.5s; /* Atraso para o título */
-}
-
-.carousel-caption img {
-  opacity: 0;
-  animation: fadeIn 1s forwards;
-  animation-delay: 1s; /* Atraso para a imagem */
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 
 
 .hero .hero-waves {
