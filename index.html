@@ -172,7 +172,7 @@
     </section><!-- /About Section -->
 
     <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
+    <div class="container section-title" data-aos="fade-up" style="margin-bottom: -80px;">
       <h2>Trabalho</h2>
       <p>Confira nosso trabalho</p>
     </div><!-- End Section Title -->
@@ -373,50 +373,85 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <a href="./service-details.html"><img src="assets/img/produtos/produto.jpg" class="img-fluid"
-                    alt=""></a>
+                <img src="assets/img/produtos/produto.jpg" class="img-fluid "alt="" data-bs-toggle="modal" data-bs-target="#produto1">
               </div>
               <div class="member-info">
-                <h4>Produto1</h4>
+                <h4 data-bs-toggle="modal" data-bs-target="#produto1" class="nomeproduto">Produto1</h4>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <a href="./service-details.html"><img src="assets/img/produtos/produto.jpg" class="img-fluid"
-                    alt=""></a>
-              </div>
-              <div class="member-info">
-                <h4>Produto2</h4>
-              </div>
+          <!-- Modal Produto1-->
+          <div class="modal fade" id="produto1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Nome do produto</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-7">
+                                <img src="./assets/img/produtos/produto.jpg" class="img-fluid" alt="Descrição do produto">
+                            </div>
+                            <div class="col-md-5">
+                                <p>Aqui vai a descrição do produto. Você pode adicionar mais informações aqui conforme necessário.</p>
+                                <img src="./assets/img/medidascaixa.png" class="medidascaixa">
+                                <p style="font-weight: bold; text-decoration: underline;">
+                                  Medidas:
+                                </p>
+                                <p style="margin-top: -15px;">
+                                  Comprimento: 99x99x99<br>
+                                  Altura: 99x99x99<br>
+                                  Largura: 99x99x99
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div><!-- End Team Member -->
+        </div>
+        
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <a href="./service-details.html"><img src="assets/img/produtos/produto.jpg" class="img-fluid"
-                    alt=""></a>
-              </div>
-              <div class="member-info">
-                <h4>Produto3</h4>
-              </div>
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/produtos/produto.jpg" class="img-fluid "alt="" data-bs-toggle="modal" data-bs-target="#produto1">
             </div>
-          </div><!-- End Team Member -->
+            <div class="member-info">
+              <h4 data-bs-toggle="modal" data-bs-target="#produto1" class="nomeproduto">Produto2</h4>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <a href="./service-details.html"><img src="assets/img/produtos/produto.jpg" class="img-fluid"
-                    alt=""></a>
-              </div>
-              <div class="member-info">
-                <h4>Produto4</h4>
-              </div>
+        <!-- Modal Produto2 aqui-->
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/produtos/produto.jpg" class="img-fluid "alt="" data-bs-toggle="modal" data-bs-target="#produto1">
             </div>
-          </div><!-- End Team Member -->
+            <div class="member-info">
+              <h4 data-bs-toggle="modal" data-bs-target="#produto1" class="nomeproduto">Produto3</h4>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+        <!-- Modal Produto3 aqui-->
+
+        <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <div class="member-img">
+              <img src="assets/img/produtos/produto.jpg" class="img-fluid "alt="" data-bs-toggle="modal" data-bs-target="#produto1">
+            </div>
+            <div class="member-info">
+              <h4 data-bs-toggle="modal" data-bs-target="#produto1" class="nomeproduto">Produto4</h4>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+
+        <!-- Modal Produto4 aqui-->
+
         </div>
       </div>
     </section><!-- /Team Section -->

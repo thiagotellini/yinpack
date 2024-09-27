@@ -1624,22 +1624,23 @@ section,
   border-radius: 5px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   height: 100%;
-  transition: transform 0.3s ease, border 0.3s ease; /* Transição suave para borda */
+  transition: transform 0.3s ease, border 0.3s ease, background-color 0.3s ease; /* Transições suaves */
 }
 
 .team .team-member:hover {
-  transform: scale(1.05); /* Aumenta o tamanho no hover */
-  border: 2px solid var(--accent-color); /* Adiciona borda no hover */
+  transform: scale(1.05);
+  border: 2px solid var(--accent-color);
+  background-color: var(--hover-background-color, rgba(255, 255, 255, 0.1)); /* Muda a cor de fundo no hover */
 }
 
 .team .team-member .member-img {
   position: relative;
   overflow: hidden;
-  transition: opacity 0.3s ease; /* Transição suave para a imagem */
+  transition: opacity 0.3s ease;
 }
 
 .team .team-member:hover .member-img {
-  opacity: 0.8; /* Torna a imagem um pouco mais transparente */
+  opacity: 0.8;
 }
 
 .team .team-member .social {
@@ -1677,12 +1678,18 @@ section,
 
 .team .team-member .member-info {
   padding: 25px 15px;
+  text-align: center;
 }
 
 .team .team-member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
+  transition: color 0.3s ease; /* Transição suave para a cor */
+}
+
+.team .team-member:hover .member-info h4 {
+  color: var(--accent-color); /* Altera a cor do texto no hover */
 }
 
 .team .team-member .member-info span {
@@ -1694,16 +1701,31 @@ section,
 
 .team .team-member:hover .social {
   opacity: 1;
-  bottom: 15px; /* Eleva a posição do social no hover */
-}
-
-/* Novo estilo para adicionar um fundo ao hover */
-.team .team-member:hover {
-  background-color: var(--hover-background-color, rgba(255, 255, 255, 0.1)); /* Muda a cor de fundo no hover */
+  bottom: 15px;
 }
 
 
+.modal-header {
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  width: 100%; /* Garante que o cabeçalho use toda a largura disponível */
+}
 
+.modal-title {
+  text-align: center; /* Centraliza o texto dentro do título */
+  flex: 1; /* Permite que o título ocupe o espaço disponível */
+  color: #df1529;
+  font-weight: bold;
+}
+
+.medidascaixa {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
