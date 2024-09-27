@@ -1642,7 +1642,15 @@ section,
 .team .team-member:hover .member-img {
   opacity: 0.8;
 }
-
+@font-face {
+  font-family: 'roboto'; /* Dê um nome para a sua fonte */
+  src: url('../fonts/Roboto-MediumItalic.ttf') format('truetype'); /* Caminho para o arquivo da fonte */
+  font-weight: normal; /* Altere se necessário */
+  font-style: normal; /* Altere se necessário */
+}
+.fonttitle {
+  font-family: 'roboto', sans-serif; /* Use a fonte que você definiu */
+}
 
 .team .team-member .social {
   position: absolute;
