@@ -1725,7 +1725,17 @@ section,
   justify-content: center;
   text-align: center;
   margin-left: 20%;
+  color: #df1529;
 }
+.titledescprod {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #df1529;
+}
+.checkdesk {
+  color: #df1529;
+}
+
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
