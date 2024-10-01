@@ -133,11 +133,24 @@
               </div>
 
               <div class="col-lg-8">
-                <div class="contatoWhatsapp">
-                  <a href="https://wa.me/5511978060037?text=Olá%20vim%20pelo%20site,%20gostaria%20de%20fazer%20um%20orçamento!"
-                    target="_blank"><img src="./assets/img/contatoWhatsapp.png"
-                      style="height: 550px; width: 550px;"></a>
-                </div>
+                <h3 class="text-center mb-3 textform">ENTRE EM CONTATO CONOSCO</h3>
+                <form id="contact-form" action="https://formsubmit.co/thiagotellini@gmail.com" method="POST">
+                  <div><input type="hidden" name="_subject" value="Nova Mensagem site!"></div>  
+                  <div class="form-group">
+                      <label for="name" class="textform">Nome:</label>
+                      <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="form-group mt-2">
+                      <label for="email" class="textform">E-mail:</label>
+                      <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                  <div class="form-group mt-2">
+                      <label for="message" class="textform">Mensagem:</label>
+                      <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                  </div>
+                  <div class="form-group"><input type="hidden" name="_next" value="https://yinpack.vercel.app/contatoteste.html"></div>
+                  <button type="submit" class="btn btn-primary mt-3 btnform">Enviar</button>
+              </form>
               </div><!-- End Contact Form -->
             </div>
           </div>

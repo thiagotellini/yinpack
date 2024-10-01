@@ -2597,6 +2597,28 @@ section,
   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
+.form-control {
+  border-radius: 25px;
+  background-color: rgb(226, 226, 226);
+}
+
+.form-control:focus {
+  color: #df1529;
+  box-shadow: none;
+  border-color: var(--accent-color);
+}
+.textform {
+  font-weight: bold;
+}
+.btnform {
+  background-color: green;
+  border-color: green;
+}
+.btnform:hover {
+  background-color: rgba(0, 128, 0, 0.8);
+  border-color: rgba(0, 128, 0, 0.8);
+}
+
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
