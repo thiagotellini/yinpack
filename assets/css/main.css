@@ -156,7 +156,18 @@ h6 {
   z-index: 997;
 }
 
+.header2 {
+  background-color: rgba(42, 44, 57, 0.9);
+  padding: 20px 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+
 .header .logo {
+  line-height: 1;
+}
+
+.header2 .logo {
   line-height: 1;
 }
 
@@ -164,8 +175,18 @@ h6 {
   max-height: 32px;
   margin-right: 8px;
 }
+.header2 .logo img {
+  max-height: 32px;
+  margin-right: 8px;
+}
 
 .header .logo h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+.header2 .logo h1 {
   font-size: 30px;
   margin: 0;
   font-weight: 700;
