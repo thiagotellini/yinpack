@@ -1196,12 +1196,12 @@ section,
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  background: var(--accent-color);
+  background: rgba(0, 120, 0, 0.8);
   color: var(--contrast-color);
 }
 
 .call-to-action .cta-btn:hover {
-  background: color-mix(in srgb, var(--accent-color) 90%, white 15%);
+  background: rgba(0, 180, 0, 0.8);
 }
 
 /*--------------------------------------------------------------
